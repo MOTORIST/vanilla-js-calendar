@@ -1,0 +1,19 @@
+$width: 18rem;
+$base: #221f3b;
+$primary: #6f4a8e;
+
+$bg-color-brand: $base;
+$bg-color-primary: $primary;
+
+$text-color-ghost: rgba(#fff, 0.6);
+$text-color-brand: $base;
+$text-color-secondary: rgba(#000, 0.3);
+$text-color-primary: $primary;
+
+$text-size-m: 1rem;
+
+$control-border-color: lighten($base, 60%);
+$control-border-color-focus: lighten($base, 50%);
+
+$radius-s: 0.3rem;
+$radius-m: 0.5rem;

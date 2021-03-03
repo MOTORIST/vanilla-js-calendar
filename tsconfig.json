@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "lib": ["ES2015", "DOM"],
+    "target": "ES2015",
+    "allowJs": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "alwaysStrict": true
+  },
+  "include": ["index.ts"],
+  "exclude": ["node_modules", "example", "**/*.test.ts"]
+}

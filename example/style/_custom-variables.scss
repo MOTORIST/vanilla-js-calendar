@@ -1,0 +1,37 @@
+$width: 18rem;
+$base: #200040;
+$primary: #40007f;
+
+// $base: #254b52;
+// $primary: #407a78;
+
+// $base: #af2e4f;
+// $primary: #f26b83;
+
+// $base: #93a603;
+// $primary: #f2b705;
+
+// $base: #9e120b;
+// $primary: #5e0b07;
+
+// $base: #132623;
+// $primary: #8c2e26;
+
+// $base: #0d0d0d;
+// $primary: #d91a4d;
+
+$bg-color-brand: $base;
+$bg-color-primary: $primary;
+
+$text-color-ghost: rgba(#fff, 0.6);
+$text-color-brand: $base;
+$text-color-secondary: rgba(#000, 0.3);
+$text-color-primary: $primary;
+
+$text-size-m: 1rem;
+
+$control-border-color: lighten($base, 60%);
+$control-border-color-focus: lighten($base, 50%);
+
+$radius-s: 0.3rem;
+$radius-m: 0.5rem;

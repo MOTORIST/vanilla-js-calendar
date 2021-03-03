@@ -1,0 +1,4097 @@
+{
+  "hash": "2c55cf0c91b43d8252a0",
+  "version": "5.24.2",
+  "time": 2785,
+  "builtAt": 1614773845499,
+  "publicPath": "auto",
+  "outputPath": "/Users/gerasinivan/projects/archive/calendar/dist",
+  "assetsByChunkName": {
+    "calendar": [
+      "calendar.min.css",
+      "calendar.min.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "calendar.min.js",
+      "size": 17748,
+      "emitted": false,
+      "comparedForEmit": true,
+      "cached": false,
+      "info": {
+        "javascriptModule": false,
+        "minimized": true,
+        "size": 17748
+      },
+      "chunkNames": [
+        "calendar"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        548
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "calendar.min.css",
+      "size": 2889,
+      "emitted": false,
+      "comparedForEmit": true,
+      "cached": false,
+      "info": {
+        "size": 2889
+      },
+      "chunkNames": [
+        "calendar"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": {},
+      "chunks": [
+        548
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    }
+  ],
+  "chunks": [
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 32777,
+      "sizes": {
+        "javascript": 29615,
+        "css/mini-extract": 2888,
+        "runtime": 274
+      },
+      "names": [
+        "calendar"
+      ],
+      "idHints": [],
+      "runtime": [
+        "calendar"
+      ],
+      "files": [
+        "calendar.min.css",
+        "calendar.min.js"
+      ],
+      "auxiliaryFiles": [],
+      "hash": "043d694426b085cbb8c8",
+      "childrenByOrder": {},
+      "id": 548,
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 277,
+          "sizes": {
+            "javascript": 277
+          },
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/index.ts",
+          "name": "./index.ts",
+          "nameForCondition": "/Users/gerasinivan/projects/archive/calendar/index.ts",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 17,
+          "postOrderIndex": 17,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 492,
+          "issuerId": null,
+          "chunks": [
+            548
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./index.ts",
+              "loc": "calendar",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": null,
+              "active": true,
+              "explanation": "used as library export",
+              "userRequest": null,
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "__esModule",
+            "default"
+          ],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 2:0-62",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 4455,
+          "sizes": {
+            "javascript": 4455
+          },
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+          "name": "./src/calendar.ts",
+          "nameForCondition": "/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+          "index": 4,
+          "preOrderIndex": 4,
+          "index2": 15,
+          "postOrderIndex": 15,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/index.ts",
+          "issuerName": "./src/index.ts",
+          "issuerPath": [
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/index.ts",
+              "name": "./index.ts",
+              "id": 492
+            },
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/index.ts",
+              "name": "./src/index.ts",
+              "id": 607
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 722,
+          "issuerId": 607,
+          "chunks": [
+            548
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/index.ts",
+              "module": "./src/index.ts",
+              "moduleName": "./src/index.ts",
+              "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/index.ts",
+              "resolvedModule": "./src/index.ts",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./calendar",
+              "loc": "4:17-38",
+              "moduleId": 607,
+              "resolvedModuleId": 607
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "__esModule",
+            "default"
+          ],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 2:0-62",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 1560,
+          "sizes": {
+            "javascript": 1560
+          },
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/constants.ts",
+          "name": "./src/constants.ts",
+          "nameForCondition": "/Users/gerasinivan/projects/archive/calendar/src/constants.ts",
+          "index": 8,
+          "preOrderIndex": 8,
+          "index2": 4,
+          "postOrderIndex": 4,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+          "issuerName": "./src/calendar.ts",
+          "issuerPath": [
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/index.ts",
+              "name": "./index.ts",
+              "id": 492
+            },
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/index.ts",
+              "name": "./src/index.ts",
+              "id": 607
+            },
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+              "name": "./src/calendar.ts",
+              "id": 722
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 601,
+          "issuerId": 722,
+          "chunks": [
+            548
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+              "module": "./src/calendar.ts",
+              "moduleName": "./src/calendar.ts",
+              "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+              "resolvedModule": "./src/calendar.ts",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./constants",
+              "loc": "5:20-42",
+              "moduleId": 722,
+              "resolvedModuleId": 722
+            },
+            {
+              "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/dates.ts",
+              "module": "./src/view-mod/dates.ts",
+              "moduleName": "./src/view-mod/dates.ts",
+              "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/dates.ts",
+              "resolvedModule": "./src/view-mod/dates.ts",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../constants",
+              "loc": "4:20-43",
+              "moduleId": 163,
+              "resolvedModuleId": 163
+            },
+            {
+              "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/month.ts",
+              "module": "./src/view-mod/month.ts",
+              "moduleName": "./src/view-mod/month.ts",
+              "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/month.ts",
+              "resolvedModule": "./src/view-mod/month.ts",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../constants",
+              "loc": "6:20-43",
+              "moduleId": 662,
+              "resolvedModuleId": 662
+            },
+            {
+              "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/view-mod.ts",
+              "module": "./src/view-mod/view-mod.ts",
+              "moduleName": "./src/view-mod/view-mod.ts",
+              "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/view-mod.ts",
+              "resolvedModule": "./src/view-mod/view-mod.ts",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../constants",
+              "loc": "4:20-43",
+              "moduleId": 656,
+              "resolvedModuleId": 656
+            },
+            {
+              "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/years.ts",
+              "module": "./src/view-mod/years.ts",
+              "moduleName": "./src/view-mod/years.ts",
+              "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/years.ts",
+              "resolvedModule": "./src/view-mod/years.ts",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../constants",
+              "loc": "6:20-43",
+              "moduleId": 234,
+              "resolvedModuleId": 234
+            },
+            {
+              "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view.ts",
+              "module": "./src/view.ts",
+              "moduleName": "./src/view.ts",
+              "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view.ts",
+              "resolvedModule": "./src/view.ts",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./constants",
+              "loc": "4:20-42",
+              "moduleId": 85,
+              "resolvedModuleId": 85
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "CLASSES",
+            "EVENTS",
+            "__esModule"
+          ],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 2:0-62",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 3
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 2242,
+          "sizes": {
+            "javascript": 2242
+          },
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/helpers/index.ts",
+          "name": "./src/helpers/index.ts",
+          "nameForCondition": "/Users/gerasinivan/projects/archive/calendar/src/helpers/index.ts",
+          "index": 9,
+          "preOrderIndex": 9,
+          "index2": 5,
+          "postOrderIndex": 5,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+          "issuerName": "./src/calendar.ts",
+          "issuerPath": [
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/index.ts",
+              "name": "./index.ts",
+              "id": 492
+            },
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/index.ts",
+              "name": "./src/index.ts",
+              "id": 607
+            },
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+              "name": "./src/calendar.ts",
+              "id": 722
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 489,
+          "issuerId": 722,
+          "chunks": [
+            548
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+              "module": "./src/calendar.ts",
+              "moduleName": "./src/calendar.ts",
+              "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+              "resolvedModule": "./src/calendar.ts",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./helpers",
+              "loc": "6:18-38",
+              "moduleId": 722,
+              "resolvedModuleId": 722
+            },
+            {
+              "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/initial-state.ts",
+              "module": "./src/initial-state.ts",
+              "moduleName": "./src/initial-state.ts",
+              "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/initial-state.ts",
+              "resolvedModule": "./src/initial-state.ts",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./helpers",
+              "loc": "4:18-38",
+              "moduleId": 946,
+              "resolvedModuleId": 946
+            },
+            {
+              "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view.ts",
+              "module": "./src/view.ts",
+              "moduleName": "./src/view.ts",
+              "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view.ts",
+              "resolvedModule": "./src/view.ts",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./helpers",
+              "loc": "6:18-38",
+              "moduleId": 85,
+              "resolvedModuleId": 85
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "__esModule",
+            "getMonthDates",
+            "getMonthsNames",
+            "getTargetHtmlElement",
+            "getWeekDaysNames",
+            "isObject",
+            "isToday",
+            "range"
+          ],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 2:0-62",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 3
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 257,
+          "sizes": {
+            "javascript": 257
+          },
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/index.ts",
+          "name": "./src/index.ts",
+          "nameForCondition": "/Users/gerasinivan/projects/archive/calendar/src/index.ts",
+          "index": 3,
+          "preOrderIndex": 3,
+          "index2": 16,
+          "postOrderIndex": 16,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/index.ts",
+          "issuerName": "./index.ts",
+          "issuerPath": [
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/index.ts",
+              "name": "./index.ts",
+              "id": 492
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 607,
+          "issuerId": 492,
+          "chunks": [
+            548
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/index.ts",
+              "module": "./index.ts",
+              "moduleName": "./index.ts",
+              "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/index.ts",
+              "resolvedModule": "./index.ts",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./src",
+              "loc": "5:12-28",
+              "moduleId": 492,
+              "resolvedModuleId": 492
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "__esModule",
+            "default"
+          ],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 2:0-62",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 1006,
+          "sizes": {
+            "javascript": 1006
+          },
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/initial-state.ts",
+          "name": "./src/initial-state.ts",
+          "nameForCondition": "/Users/gerasinivan/projects/archive/calendar/src/initial-state.ts",
+          "index": 11,
+          "preOrderIndex": 11,
+          "index2": 8,
+          "postOrderIndex": 8,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+          "issuerName": "./src/calendar.ts",
+          "issuerPath": [
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/index.ts",
+              "name": "./index.ts",
+              "id": 492
+            },
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/index.ts",
+              "name": "./src/index.ts",
+              "id": 607
+            },
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+              "name": "./src/calendar.ts",
+              "id": 722
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 946,
+          "issuerId": 722,
+          "chunks": [
+            548
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+              "module": "./src/calendar.ts",
+              "moduleName": "./src/calendar.ts",
+              "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+              "resolvedModule": "./src/calendar.ts",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./initial-state",
+              "loc": "8:24-50",
+              "moduleId": 722,
+              "resolvedModuleId": 722
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "__esModule",
+            "default"
+          ],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 2:0-62",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 3
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 1163,
+          "sizes": {
+            "javascript": 1163
+          },
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/state.ts",
+          "name": "./src/state.ts",
+          "nameForCondition": "/Users/gerasinivan/projects/archive/calendar/src/state.ts",
+          "index": 10,
+          "preOrderIndex": 10,
+          "index2": 7,
+          "postOrderIndex": 7,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+          "issuerName": "./src/calendar.ts",
+          "issuerPath": [
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/index.ts",
+              "name": "./index.ts",
+              "id": 492
+            },
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/index.ts",
+              "name": "./src/index.ts",
+              "id": 607
+            },
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+              "name": "./src/calendar.ts",
+              "id": 722
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 367,
+          "issuerId": 722,
+          "chunks": [
+            548
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+              "module": "./src/calendar.ts",
+              "moduleName": "./src/calendar.ts",
+              "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+              "resolvedModule": "./src/calendar.ts",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./state",
+              "loc": "7:16-34",
+              "moduleId": 722,
+              "resolvedModuleId": 722
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "__esModule",
+            "default"
+          ],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 2:0-62",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 3
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 50,
+          "sizes": {
+            "javascript": 50
+          },
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/gerasinivan/projects/archive/calendar/node_modules/css-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/node_modules/sass-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/src/style/index.scss",
+          "name": "./src/style/index.scss",
+          "nameForCondition": "/Users/gerasinivan/projects/archive/calendar/src/style/index.scss",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/index.ts",
+          "issuerName": "./index.ts",
+          "issuerPath": [
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/index.ts",
+              "name": "./index.ts",
+              "id": 492
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 254,
+          "issuerId": 492,
+          "chunks": [
+            548
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/index.ts",
+              "module": "./index.ts",
+              "moduleName": "./index.ts",
+              "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/index.ts",
+              "resolvedModule": "./index.ts",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./src/style/index.scss",
+              "loc": "4:0-33",
+              "moduleId": 492,
+              "resolvedModuleId": 492
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 284,
+          "sizes": {
+            "javascript": 284
+          },
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/types/index.ts",
+          "name": "./src/types/index.ts",
+          "nameForCondition": "/Users/gerasinivan/projects/archive/calendar/src/types/index.ts",
+          "index": 5,
+          "preOrderIndex": 5,
+          "index2": 2,
+          "postOrderIndex": 2,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+          "issuerName": "./src/calendar.ts",
+          "issuerPath": [
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/index.ts",
+              "name": "./index.ts",
+              "id": 492
+            },
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/index.ts",
+              "name": "./src/index.ts",
+              "id": 607
+            },
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+              "name": "./src/calendar.ts",
+              "id": 722
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 230,
+          "issuerId": 722,
+          "chunks": [
+            548
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+              "module": "./src/calendar.ts",
+              "moduleName": "./src/calendar.ts",
+              "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+              "resolvedModule": "./src/calendar.ts",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./types",
+              "loc": "3:16-34",
+              "moduleId": 722,
+              "resolvedModuleId": 722
+            },
+            {
+              "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/initial-state.ts",
+              "module": "./src/initial-state.ts",
+              "moduleName": "./src/initial-state.ts",
+              "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/initial-state.ts",
+              "resolvedModule": "./src/initial-state.ts",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./types",
+              "loc": "3:16-34",
+              "moduleId": 946,
+              "resolvedModuleId": 946
+            },
+            {
+              "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/types/index.ts",
+              "module": "./src/types/index.ts",
+              "moduleName": "./src/types/index.ts",
+              "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/types/index.ts",
+              "resolvedModule": "./src/types/index.ts",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "9:9-20",
+              "moduleId": 230,
+              "resolvedModuleId": 230
+            },
+            {
+              "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/index.ts",
+              "module": "./src/view-mod/index.ts",
+              "moduleName": "./src/view-mod/index.ts",
+              "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/index.ts",
+              "resolvedModule": "./src/view-mod/index.ts",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../types",
+              "loc": "3:16-35",
+              "moduleId": 313,
+              "resolvedModuleId": 313
+            },
+            {
+              "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/month.ts",
+              "module": "./src/view-mod/month.ts",
+              "moduleName": "./src/view-mod/month.ts",
+              "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/month.ts",
+              "resolvedModule": "./src/view-mod/month.ts",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../types",
+              "loc": "5:16-35",
+              "moduleId": 662,
+              "resolvedModuleId": 662
+            },
+            {
+              "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/years.ts",
+              "module": "./src/view-mod/years.ts",
+              "moduleName": "./src/view-mod/years.ts",
+              "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/years.ts",
+              "resolvedModule": "./src/view-mod/years.ts",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../types",
+              "loc": "5:16-35",
+              "moduleId": 234,
+              "resolvedModuleId": 234
+            },
+            {
+              "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view.ts",
+              "module": "./src/view.ts",
+              "moduleName": "./src/view.ts",
+              "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view.ts",
+              "resolvedModule": "./src/view.ts",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./types",
+              "loc": "5:16-34",
+              "moduleId": 85,
+              "resolvedModuleId": 85
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "Mod",
+            "__esModule"
+          ],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 2:0-62",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 3
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 2755,
+          "sizes": {
+            "javascript": 2755
+          },
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/utils/dom.ts",
+          "name": "./src/utils/dom.ts",
+          "nameForCondition": "/Users/gerasinivan/projects/archive/calendar/src/utils/dom.ts",
+          "index": 7,
+          "preOrderIndex": 7,
+          "index2": 3,
+          "postOrderIndex": 3,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view.ts",
+          "issuerName": "./src/view.ts",
+          "issuerPath": [
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/index.ts",
+              "name": "./index.ts",
+              "id": 492
+            },
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/index.ts",
+              "name": "./src/index.ts",
+              "id": 607
+            },
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+              "name": "./src/calendar.ts",
+              "id": 722
+            },
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view.ts",
+              "name": "./src/view.ts",
+              "id": 85
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 593,
+          "issuerId": 85,
+          "chunks": [
+            548
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view.ts",
+              "module": "./src/view.ts",
+              "moduleName": "./src/view.ts",
+              "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view.ts",
+              "resolvedModule": "./src/view.ts",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./utils/dom",
+              "loc": "3:14-36",
+              "moduleId": 85,
+              "resolvedModuleId": 85
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "Dom",
+            "__esModule",
+            "default"
+          ],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 2:0-62",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 4
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 776,
+          "sizes": {
+            "javascript": 776
+          },
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/utils/event-emitter.ts",
+          "name": "./src/utils/event-emitter.ts",
+          "nameForCondition": "/Users/gerasinivan/projects/archive/calendar/src/utils/event-emitter.ts",
+          "index": 17,
+          "preOrderIndex": 17,
+          "index2": 14,
+          "postOrderIndex": 14,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+          "issuerName": "./src/calendar.ts",
+          "issuerPath": [
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/index.ts",
+              "name": "./index.ts",
+              "id": 492
+            },
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/index.ts",
+              "name": "./src/index.ts",
+              "id": 607
+            },
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+              "name": "./src/calendar.ts",
+              "id": 722
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 412,
+          "issuerId": 722,
+          "chunks": [
+            548
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+              "module": "./src/calendar.ts",
+              "moduleName": "./src/calendar.ts",
+              "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+              "resolvedModule": "./src/calendar.ts",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./utils/event-emitter",
+              "loc": "10:24-56",
+              "moduleId": 722,
+              "resolvedModuleId": 722
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "__esModule",
+            "default"
+          ],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 2:0-62",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 3
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 1771,
+          "sizes": {
+            "javascript": 1771
+          },
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/dates.ts",
+          "name": "./src/view-mod/dates.ts",
+          "nameForCondition": "/Users/gerasinivan/projects/archive/calendar/src/view-mod/dates.ts",
+          "index": 13,
+          "preOrderIndex": 13,
+          "index2": 10,
+          "postOrderIndex": 10,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/index.ts",
+          "issuerName": "./src/view-mod/index.ts",
+          "issuerPath": [
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/index.ts",
+              "name": "./index.ts",
+              "id": 492
+            },
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/index.ts",
+              "name": "./src/index.ts",
+              "id": 607
+            },
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+              "name": "./src/calendar.ts",
+              "id": 722
+            },
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/index.ts",
+              "name": "./src/view-mod/index.ts",
+              "id": 313
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 163,
+          "issuerId": 313,
+          "chunks": [
+            548
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/index.ts",
+              "module": "./src/view-mod/index.ts",
+              "moduleName": "./src/view-mod/index.ts",
+              "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/index.ts",
+              "resolvedModule": "./src/view-mod/index.ts",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./dates",
+              "loc": "4:16-34",
+              "moduleId": 313,
+              "resolvedModuleId": 313
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "DatesViewMod",
+            "__esModule"
+          ],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 2:0-62",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 4
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 659,
+          "sizes": {
+            "javascript": 659
+          },
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/index.ts",
+          "name": "./src/view-mod/index.ts",
+          "nameForCondition": "/Users/gerasinivan/projects/archive/calendar/src/view-mod/index.ts",
+          "index": 12,
+          "preOrderIndex": 12,
+          "index2": 13,
+          "postOrderIndex": 13,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+          "issuerName": "./src/calendar.ts",
+          "issuerPath": [
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/index.ts",
+              "name": "./index.ts",
+              "id": 492
+            },
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/index.ts",
+              "name": "./src/index.ts",
+              "id": 607
+            },
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+              "name": "./src/calendar.ts",
+              "id": 722
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 313,
+          "issuerId": 722,
+          "chunks": [
+            548
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+              "module": "./src/calendar.ts",
+              "moduleName": "./src/calendar.ts",
+              "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+              "resolvedModule": "./src/calendar.ts",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./view-mod",
+              "loc": "9:19-40",
+              "moduleId": 722,
+              "resolvedModuleId": 722
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "__esModule",
+            "default"
+          ],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 2:0-62",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 3
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 961,
+          "sizes": {
+            "javascript": 961
+          },
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/month.ts",
+          "name": "./src/view-mod/month.ts",
+          "nameForCondition": "/Users/gerasinivan/projects/archive/calendar/src/view-mod/month.ts",
+          "index": 15,
+          "preOrderIndex": 15,
+          "index2": 11,
+          "postOrderIndex": 11,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/index.ts",
+          "issuerName": "./src/view-mod/index.ts",
+          "issuerPath": [
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/index.ts",
+              "name": "./index.ts",
+              "id": 492
+            },
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/index.ts",
+              "name": "./src/index.ts",
+              "id": 607
+            },
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+              "name": "./src/calendar.ts",
+              "id": 722
+            },
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/index.ts",
+              "name": "./src/view-mod/index.ts",
+              "id": 313
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 662,
+          "issuerId": 313,
+          "chunks": [
+            548
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/index.ts",
+              "module": "./src/view-mod/index.ts",
+              "moduleName": "./src/view-mod/index.ts",
+              "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/index.ts",
+              "resolvedModule": "./src/view-mod/index.ts",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./month",
+              "loc": "5:16-34",
+              "moduleId": 313,
+              "resolvedModuleId": 313
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "MonthViewMod",
+            "__esModule"
+          ],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 2:0-62",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 4
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 562,
+          "sizes": {
+            "javascript": 562
+          },
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/view-mod.ts",
+          "name": "./src/view-mod/view-mod.ts",
+          "nameForCondition": "/Users/gerasinivan/projects/archive/calendar/src/view-mod/view-mod.ts",
+          "index": 14,
+          "preOrderIndex": 14,
+          "index2": 9,
+          "postOrderIndex": 9,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/dates.ts",
+          "issuerName": "./src/view-mod/dates.ts",
+          "issuerPath": [
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/index.ts",
+              "name": "./index.ts",
+              "id": 492
+            },
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/index.ts",
+              "name": "./src/index.ts",
+              "id": 607
+            },
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+              "name": "./src/calendar.ts",
+              "id": 722
+            },
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/index.ts",
+              "name": "./src/view-mod/index.ts",
+              "id": 313
+            },
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/dates.ts",
+              "name": "./src/view-mod/dates.ts",
+              "id": 163
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 656,
+          "issuerId": 163,
+          "chunks": [
+            548
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/dates.ts",
+              "module": "./src/view-mod/dates.ts",
+              "moduleName": "./src/view-mod/dates.ts",
+              "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/dates.ts",
+              "resolvedModule": "./src/view-mod/dates.ts",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./view-mod",
+              "loc": "5:19-40",
+              "moduleId": 163,
+              "resolvedModuleId": 163
+            },
+            {
+              "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/month.ts",
+              "module": "./src/view-mod/month.ts",
+              "moduleName": "./src/view-mod/month.ts",
+              "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/month.ts",
+              "resolvedModule": "./src/view-mod/month.ts",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./view-mod",
+              "loc": "4:19-40",
+              "moduleId": 662,
+              "resolvedModuleId": 662
+            },
+            {
+              "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/years.ts",
+              "module": "./src/view-mod/years.ts",
+              "moduleName": "./src/view-mod/years.ts",
+              "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/years.ts",
+              "resolvedModule": "./src/view-mod/years.ts",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./view-mod",
+              "loc": "4:19-40",
+              "moduleId": 234,
+              "resolvedModuleId": 234
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "ViewMod",
+            "__esModule"
+          ],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 2:0-62",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 5
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 1116,
+          "sizes": {
+            "javascript": 1116
+          },
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/years.ts",
+          "name": "./src/view-mod/years.ts",
+          "nameForCondition": "/Users/gerasinivan/projects/archive/calendar/src/view-mod/years.ts",
+          "index": 16,
+          "preOrderIndex": 16,
+          "index2": 12,
+          "postOrderIndex": 12,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/index.ts",
+          "issuerName": "./src/view-mod/index.ts",
+          "issuerPath": [
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/index.ts",
+              "name": "./index.ts",
+              "id": 492
+            },
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/index.ts",
+              "name": "./src/index.ts",
+              "id": 607
+            },
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+              "name": "./src/calendar.ts",
+              "id": 722
+            },
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/index.ts",
+              "name": "./src/view-mod/index.ts",
+              "id": 313
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 234,
+          "issuerId": 313,
+          "chunks": [
+            548
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/index.ts",
+              "module": "./src/view-mod/index.ts",
+              "moduleName": "./src/view-mod/index.ts",
+              "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/index.ts",
+              "resolvedModule": "./src/view-mod/index.ts",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./years",
+              "loc": "6:16-34",
+              "moduleId": 313,
+              "resolvedModuleId": 313
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "YearsViewMod",
+            "__esModule"
+          ],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 2:0-62",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 4
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 9721,
+          "sizes": {
+            "javascript": 9721
+          },
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view.ts",
+          "name": "./src/view.ts",
+          "nameForCondition": "/Users/gerasinivan/projects/archive/calendar/src/view.ts",
+          "index": 6,
+          "preOrderIndex": 6,
+          "index2": 6,
+          "postOrderIndex": 6,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+          "issuerName": "./src/calendar.ts",
+          "issuerPath": [
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/index.ts",
+              "name": "./index.ts",
+              "id": 492
+            },
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/index.ts",
+              "name": "./src/index.ts",
+              "id": 607
+            },
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+              "name": "./src/calendar.ts",
+              "id": 722
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 85,
+          "issuerId": 722,
+          "chunks": [
+            548
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+              "module": "./src/calendar.ts",
+              "moduleName": "./src/calendar.ts",
+              "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+              "resolvedModule": "./src/calendar.ts",
+              "type": "cjs require",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./view",
+              "loc": "4:15-32",
+              "moduleId": 722,
+              "resolvedModuleId": 722
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "__esModule",
+            "default"
+          ],
+          "optimizationBailout": [
+            "Statement (ExpressionStatement) with side effects in source code at 2:0-62",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 3
+        },
+        {
+          "type": "module",
+          "moduleType": "css/mini-extract",
+          "layer": null,
+          "size": 2888,
+          "sizes": {
+            "css/mini-extract": 2888
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "css|/Users/gerasinivan/projects/archive/calendar/node_modules/css-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/node_modules/sass-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/src/style/index.scss|0",
+          "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/index.scss",
+          "nameForCondition": "/Users/gerasinivan/projects/archive/calendar/src/style/index.scss",
+          "index": 2,
+          "preOrderIndex": 2,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/Users/gerasinivan/projects/archive/calendar/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/gerasinivan/projects/archive/calendar/node_modules/css-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/node_modules/sass-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/src/style/index.scss",
+          "issuerName": "./src/style/index.scss",
+          "issuerPath": [
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/index.ts",
+              "name": "./index.ts",
+              "id": 492
+            },
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/gerasinivan/projects/archive/calendar/node_modules/css-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/node_modules/sass-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/src/style/index.scss",
+              "name": "./src/style/index.scss",
+              "id": 254
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": null,
+          "issuerId": 254,
+          "chunks": [
+            548
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/gerasinivan/projects/archive/calendar/node_modules/css-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/node_modules/sass-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/src/style/index.scss",
+              "module": "./src/style/index.scss",
+              "moduleName": "./src/style/index.scss",
+              "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/gerasinivan/projects/archive/calendar/node_modules/css-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/node_modules/sass-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/src/style/index.scss",
+              "resolvedModule": "./src/style/index.scss",
+              "type": "unknown",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "moduleId": 254,
+              "resolvedModuleId": 254
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module Concatenation is not implemented for CssModule"
+          ],
+          "depth": 2
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 274,
+          "sizes": {
+            "runtime": 274
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "webpack/runtime/make namespace object",
+          "name": "webpack/runtime/make namespace object",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            548
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "calendar",
+          "request": "./index.ts"
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 277,
+      "sizes": {
+        "javascript": 277
+      },
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/index.ts",
+      "name": "./index.ts",
+      "nameForCondition": "/Users/gerasinivan/projects/archive/calendar/index.ts",
+      "index": 0,
+      "preOrderIndex": 0,
+      "index2": 17,
+      "postOrderIndex": 17,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 492,
+      "issuerId": null,
+      "chunks": [
+        548
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "entry",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./index.ts",
+          "loc": "calendar",
+          "moduleId": null,
+          "resolvedModuleId": null
+        },
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": null,
+          "active": true,
+          "explanation": "used as library export",
+          "userRequest": null,
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": [
+        "__esModule",
+        "default"
+      ],
+      "optimizationBailout": [
+        "Statement (ExpressionStatement) with side effects in source code at 2:0-62",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 0
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 50,
+      "sizes": {
+        "javascript": 50
+      },
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/gerasinivan/projects/archive/calendar/node_modules/css-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/node_modules/sass-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/src/style/index.scss",
+      "name": "./src/style/index.scss",
+      "nameForCondition": "/Users/gerasinivan/projects/archive/calendar/src/style/index.scss",
+      "index": 1,
+      "preOrderIndex": 1,
+      "index2": 1,
+      "postOrderIndex": 1,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/index.ts",
+      "issuerName": "./index.ts",
+      "issuerPath": [
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/index.ts",
+          "name": "./index.ts",
+          "id": 492
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 254,
+      "issuerId": 492,
+      "chunks": [
+        548
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/index.ts",
+          "module": "./index.ts",
+          "moduleName": "./index.ts",
+          "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/index.ts",
+          "resolvedModule": "./index.ts",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./src/style/index.scss",
+          "loc": "4:0-33",
+          "moduleId": 492,
+          "resolvedModuleId": 492
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 257,
+      "sizes": {
+        "javascript": 257
+      },
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/index.ts",
+      "name": "./src/index.ts",
+      "nameForCondition": "/Users/gerasinivan/projects/archive/calendar/src/index.ts",
+      "index": 3,
+      "preOrderIndex": 3,
+      "index2": 16,
+      "postOrderIndex": 16,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/index.ts",
+      "issuerName": "./index.ts",
+      "issuerPath": [
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/index.ts",
+          "name": "./index.ts",
+          "id": 492
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 607,
+      "issuerId": 492,
+      "chunks": [
+        548
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/index.ts",
+          "module": "./index.ts",
+          "moduleName": "./index.ts",
+          "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/index.ts",
+          "resolvedModule": "./index.ts",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./src",
+          "loc": "5:12-28",
+          "moduleId": 492,
+          "resolvedModuleId": 492
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "__esModule",
+        "default"
+      ],
+      "optimizationBailout": [
+        "Statement (ExpressionStatement) with side effects in source code at 2:0-62",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "css/mini-extract",
+      "layer": null,
+      "size": 2888,
+      "sizes": {
+        "css/mini-extract": 2888
+      },
+      "built": false,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "css|/Users/gerasinivan/projects/archive/calendar/node_modules/css-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/node_modules/sass-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/src/style/index.scss|0",
+      "name": "css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/index.scss",
+      "nameForCondition": "/Users/gerasinivan/projects/archive/calendar/src/style/index.scss",
+      "index": 2,
+      "preOrderIndex": 2,
+      "index2": 0,
+      "postOrderIndex": 0,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/gerasinivan/projects/archive/calendar/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/gerasinivan/projects/archive/calendar/node_modules/css-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/node_modules/sass-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/src/style/index.scss",
+      "issuerName": "./src/style/index.scss",
+      "issuerPath": [
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/index.ts",
+          "name": "./index.ts",
+          "id": 492
+        },
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/gerasinivan/projects/archive/calendar/node_modules/css-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/node_modules/sass-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/src/style/index.scss",
+          "name": "./src/style/index.scss",
+          "id": 254
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": null,
+      "issuerId": 254,
+      "chunks": [
+        548
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/gerasinivan/projects/archive/calendar/node_modules/css-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/node_modules/sass-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/src/style/index.scss",
+          "module": "./src/style/index.scss",
+          "moduleName": "./src/style/index.scss",
+          "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/mini-css-extract-plugin/dist/loader.js!/Users/gerasinivan/projects/archive/calendar/node_modules/css-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/node_modules/sass-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/src/style/index.scss",
+          "resolvedModule": "./src/style/index.scss",
+          "type": "unknown",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "moduleId": 254,
+          "resolvedModuleId": 254
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module Concatenation is not implemented for CssModule"
+      ],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 4455,
+      "sizes": {
+        "javascript": 4455
+      },
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+      "name": "./src/calendar.ts",
+      "nameForCondition": "/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+      "index": 4,
+      "preOrderIndex": 4,
+      "index2": 15,
+      "postOrderIndex": 15,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/index.ts",
+      "issuerName": "./src/index.ts",
+      "issuerPath": [
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/index.ts",
+          "name": "./index.ts",
+          "id": 492
+        },
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/index.ts",
+          "name": "./src/index.ts",
+          "id": 607
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 722,
+      "issuerId": 607,
+      "chunks": [
+        548
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/index.ts",
+          "module": "./src/index.ts",
+          "moduleName": "./src/index.ts",
+          "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/index.ts",
+          "resolvedModule": "./src/index.ts",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./calendar",
+          "loc": "4:17-38",
+          "moduleId": 607,
+          "resolvedModuleId": 607
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "__esModule",
+        "default"
+      ],
+      "optimizationBailout": [
+        "Statement (ExpressionStatement) with side effects in source code at 2:0-62",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 284,
+      "sizes": {
+        "javascript": 284
+      },
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/types/index.ts",
+      "name": "./src/types/index.ts",
+      "nameForCondition": "/Users/gerasinivan/projects/archive/calendar/src/types/index.ts",
+      "index": 5,
+      "preOrderIndex": 5,
+      "index2": 2,
+      "postOrderIndex": 2,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+      "issuerName": "./src/calendar.ts",
+      "issuerPath": [
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/index.ts",
+          "name": "./index.ts",
+          "id": 492
+        },
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/index.ts",
+          "name": "./src/index.ts",
+          "id": 607
+        },
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+          "name": "./src/calendar.ts",
+          "id": 722
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 230,
+      "issuerId": 722,
+      "chunks": [
+        548
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+          "module": "./src/calendar.ts",
+          "moduleName": "./src/calendar.ts",
+          "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+          "resolvedModule": "./src/calendar.ts",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./types",
+          "loc": "3:16-34",
+          "moduleId": 722,
+          "resolvedModuleId": 722
+        },
+        {
+          "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/initial-state.ts",
+          "module": "./src/initial-state.ts",
+          "moduleName": "./src/initial-state.ts",
+          "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/initial-state.ts",
+          "resolvedModule": "./src/initial-state.ts",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./types",
+          "loc": "3:16-34",
+          "moduleId": 946,
+          "resolvedModuleId": 946
+        },
+        {
+          "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/types/index.ts",
+          "module": "./src/types/index.ts",
+          "moduleName": "./src/types/index.ts",
+          "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/types/index.ts",
+          "resolvedModule": "./src/types/index.ts",
+          "type": "cjs self exports reference",
+          "active": true,
+          "explanation": "",
+          "userRequest": null,
+          "loc": "9:9-20",
+          "moduleId": 230,
+          "resolvedModuleId": 230
+        },
+        {
+          "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/index.ts",
+          "module": "./src/view-mod/index.ts",
+          "moduleName": "./src/view-mod/index.ts",
+          "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/index.ts",
+          "resolvedModule": "./src/view-mod/index.ts",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../types",
+          "loc": "3:16-35",
+          "moduleId": 313,
+          "resolvedModuleId": 313
+        },
+        {
+          "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/month.ts",
+          "module": "./src/view-mod/month.ts",
+          "moduleName": "./src/view-mod/month.ts",
+          "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/month.ts",
+          "resolvedModule": "./src/view-mod/month.ts",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../types",
+          "loc": "5:16-35",
+          "moduleId": 662,
+          "resolvedModuleId": 662
+        },
+        {
+          "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/years.ts",
+          "module": "./src/view-mod/years.ts",
+          "moduleName": "./src/view-mod/years.ts",
+          "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/years.ts",
+          "resolvedModule": "./src/view-mod/years.ts",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../types",
+          "loc": "5:16-35",
+          "moduleId": 234,
+          "resolvedModuleId": 234
+        },
+        {
+          "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view.ts",
+          "module": "./src/view.ts",
+          "moduleName": "./src/view.ts",
+          "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view.ts",
+          "resolvedModule": "./src/view.ts",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./types",
+          "loc": "5:16-34",
+          "moduleId": 85,
+          "resolvedModuleId": 85
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "Mod",
+        "__esModule"
+      ],
+      "optimizationBailout": [
+        "Statement (ExpressionStatement) with side effects in source code at 2:0-62",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 3
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 9721,
+      "sizes": {
+        "javascript": 9721
+      },
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view.ts",
+      "name": "./src/view.ts",
+      "nameForCondition": "/Users/gerasinivan/projects/archive/calendar/src/view.ts",
+      "index": 6,
+      "preOrderIndex": 6,
+      "index2": 6,
+      "postOrderIndex": 6,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+      "issuerName": "./src/calendar.ts",
+      "issuerPath": [
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/index.ts",
+          "name": "./index.ts",
+          "id": 492
+        },
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/index.ts",
+          "name": "./src/index.ts",
+          "id": 607
+        },
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+          "name": "./src/calendar.ts",
+          "id": 722
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 85,
+      "issuerId": 722,
+      "chunks": [
+        548
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+          "module": "./src/calendar.ts",
+          "moduleName": "./src/calendar.ts",
+          "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+          "resolvedModule": "./src/calendar.ts",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./view",
+          "loc": "4:15-32",
+          "moduleId": 722,
+          "resolvedModuleId": 722
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "__esModule",
+        "default"
+      ],
+      "optimizationBailout": [
+        "Statement (ExpressionStatement) with side effects in source code at 2:0-62",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 3
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 1560,
+      "sizes": {
+        "javascript": 1560
+      },
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/constants.ts",
+      "name": "./src/constants.ts",
+      "nameForCondition": "/Users/gerasinivan/projects/archive/calendar/src/constants.ts",
+      "index": 8,
+      "preOrderIndex": 8,
+      "index2": 4,
+      "postOrderIndex": 4,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+      "issuerName": "./src/calendar.ts",
+      "issuerPath": [
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/index.ts",
+          "name": "./index.ts",
+          "id": 492
+        },
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/index.ts",
+          "name": "./src/index.ts",
+          "id": 607
+        },
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+          "name": "./src/calendar.ts",
+          "id": 722
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 601,
+      "issuerId": 722,
+      "chunks": [
+        548
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+          "module": "./src/calendar.ts",
+          "moduleName": "./src/calendar.ts",
+          "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+          "resolvedModule": "./src/calendar.ts",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./constants",
+          "loc": "5:20-42",
+          "moduleId": 722,
+          "resolvedModuleId": 722
+        },
+        {
+          "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/dates.ts",
+          "module": "./src/view-mod/dates.ts",
+          "moduleName": "./src/view-mod/dates.ts",
+          "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/dates.ts",
+          "resolvedModule": "./src/view-mod/dates.ts",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../constants",
+          "loc": "4:20-43",
+          "moduleId": 163,
+          "resolvedModuleId": 163
+        },
+        {
+          "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/month.ts",
+          "module": "./src/view-mod/month.ts",
+          "moduleName": "./src/view-mod/month.ts",
+          "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/month.ts",
+          "resolvedModule": "./src/view-mod/month.ts",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../constants",
+          "loc": "6:20-43",
+          "moduleId": 662,
+          "resolvedModuleId": 662
+        },
+        {
+          "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/view-mod.ts",
+          "module": "./src/view-mod/view-mod.ts",
+          "moduleName": "./src/view-mod/view-mod.ts",
+          "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/view-mod.ts",
+          "resolvedModule": "./src/view-mod/view-mod.ts",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../constants",
+          "loc": "4:20-43",
+          "moduleId": 656,
+          "resolvedModuleId": 656
+        },
+        {
+          "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/years.ts",
+          "module": "./src/view-mod/years.ts",
+          "moduleName": "./src/view-mod/years.ts",
+          "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/years.ts",
+          "resolvedModule": "./src/view-mod/years.ts",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "../constants",
+          "loc": "6:20-43",
+          "moduleId": 234,
+          "resolvedModuleId": 234
+        },
+        {
+          "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view.ts",
+          "module": "./src/view.ts",
+          "moduleName": "./src/view.ts",
+          "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view.ts",
+          "resolvedModule": "./src/view.ts",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./constants",
+          "loc": "4:20-42",
+          "moduleId": 85,
+          "resolvedModuleId": 85
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "CLASSES",
+        "EVENTS",
+        "__esModule"
+      ],
+      "optimizationBailout": [
+        "Statement (ExpressionStatement) with side effects in source code at 2:0-62",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 3
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 2242,
+      "sizes": {
+        "javascript": 2242
+      },
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/helpers/index.ts",
+      "name": "./src/helpers/index.ts",
+      "nameForCondition": "/Users/gerasinivan/projects/archive/calendar/src/helpers/index.ts",
+      "index": 9,
+      "preOrderIndex": 9,
+      "index2": 5,
+      "postOrderIndex": 5,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+      "issuerName": "./src/calendar.ts",
+      "issuerPath": [
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/index.ts",
+          "name": "./index.ts",
+          "id": 492
+        },
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/index.ts",
+          "name": "./src/index.ts",
+          "id": 607
+        },
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+          "name": "./src/calendar.ts",
+          "id": 722
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 489,
+      "issuerId": 722,
+      "chunks": [
+        548
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+          "module": "./src/calendar.ts",
+          "moduleName": "./src/calendar.ts",
+          "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+          "resolvedModule": "./src/calendar.ts",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./helpers",
+          "loc": "6:18-38",
+          "moduleId": 722,
+          "resolvedModuleId": 722
+        },
+        {
+          "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/initial-state.ts",
+          "module": "./src/initial-state.ts",
+          "moduleName": "./src/initial-state.ts",
+          "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/initial-state.ts",
+          "resolvedModule": "./src/initial-state.ts",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./helpers",
+          "loc": "4:18-38",
+          "moduleId": 946,
+          "resolvedModuleId": 946
+        },
+        {
+          "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view.ts",
+          "module": "./src/view.ts",
+          "moduleName": "./src/view.ts",
+          "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view.ts",
+          "resolvedModule": "./src/view.ts",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./helpers",
+          "loc": "6:18-38",
+          "moduleId": 85,
+          "resolvedModuleId": 85
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "__esModule",
+        "getMonthDates",
+        "getMonthsNames",
+        "getTargetHtmlElement",
+        "getWeekDaysNames",
+        "isObject",
+        "isToday",
+        "range"
+      ],
+      "optimizationBailout": [
+        "Statement (ExpressionStatement) with side effects in source code at 2:0-62",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 3
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 1163,
+      "sizes": {
+        "javascript": 1163
+      },
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/state.ts",
+      "name": "./src/state.ts",
+      "nameForCondition": "/Users/gerasinivan/projects/archive/calendar/src/state.ts",
+      "index": 10,
+      "preOrderIndex": 10,
+      "index2": 7,
+      "postOrderIndex": 7,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+      "issuerName": "./src/calendar.ts",
+      "issuerPath": [
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/index.ts",
+          "name": "./index.ts",
+          "id": 492
+        },
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/index.ts",
+          "name": "./src/index.ts",
+          "id": 607
+        },
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+          "name": "./src/calendar.ts",
+          "id": 722
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 367,
+      "issuerId": 722,
+      "chunks": [
+        548
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+          "module": "./src/calendar.ts",
+          "moduleName": "./src/calendar.ts",
+          "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+          "resolvedModule": "./src/calendar.ts",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./state",
+          "loc": "7:16-34",
+          "moduleId": 722,
+          "resolvedModuleId": 722
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "__esModule",
+        "default"
+      ],
+      "optimizationBailout": [
+        "Statement (ExpressionStatement) with side effects in source code at 2:0-62",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 3
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 1006,
+      "sizes": {
+        "javascript": 1006
+      },
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/initial-state.ts",
+      "name": "./src/initial-state.ts",
+      "nameForCondition": "/Users/gerasinivan/projects/archive/calendar/src/initial-state.ts",
+      "index": 11,
+      "preOrderIndex": 11,
+      "index2": 8,
+      "postOrderIndex": 8,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+      "issuerName": "./src/calendar.ts",
+      "issuerPath": [
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/index.ts",
+          "name": "./index.ts",
+          "id": 492
+        },
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/index.ts",
+          "name": "./src/index.ts",
+          "id": 607
+        },
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+          "name": "./src/calendar.ts",
+          "id": 722
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 946,
+      "issuerId": 722,
+      "chunks": [
+        548
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+          "module": "./src/calendar.ts",
+          "moduleName": "./src/calendar.ts",
+          "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+          "resolvedModule": "./src/calendar.ts",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./initial-state",
+          "loc": "8:24-50",
+          "moduleId": 722,
+          "resolvedModuleId": 722
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "__esModule",
+        "default"
+      ],
+      "optimizationBailout": [
+        "Statement (ExpressionStatement) with side effects in source code at 2:0-62",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 3
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 659,
+      "sizes": {
+        "javascript": 659
+      },
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/index.ts",
+      "name": "./src/view-mod/index.ts",
+      "nameForCondition": "/Users/gerasinivan/projects/archive/calendar/src/view-mod/index.ts",
+      "index": 12,
+      "preOrderIndex": 12,
+      "index2": 13,
+      "postOrderIndex": 13,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+      "issuerName": "./src/calendar.ts",
+      "issuerPath": [
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/index.ts",
+          "name": "./index.ts",
+          "id": 492
+        },
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/index.ts",
+          "name": "./src/index.ts",
+          "id": 607
+        },
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+          "name": "./src/calendar.ts",
+          "id": 722
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 313,
+      "issuerId": 722,
+      "chunks": [
+        548
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+          "module": "./src/calendar.ts",
+          "moduleName": "./src/calendar.ts",
+          "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+          "resolvedModule": "./src/calendar.ts",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./view-mod",
+          "loc": "9:19-40",
+          "moduleId": 722,
+          "resolvedModuleId": 722
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "__esModule",
+        "default"
+      ],
+      "optimizationBailout": [
+        "Statement (ExpressionStatement) with side effects in source code at 2:0-62",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 3
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 776,
+      "sizes": {
+        "javascript": 776
+      },
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/utils/event-emitter.ts",
+      "name": "./src/utils/event-emitter.ts",
+      "nameForCondition": "/Users/gerasinivan/projects/archive/calendar/src/utils/event-emitter.ts",
+      "index": 17,
+      "preOrderIndex": 17,
+      "index2": 14,
+      "postOrderIndex": 14,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+      "issuerName": "./src/calendar.ts",
+      "issuerPath": [
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/index.ts",
+          "name": "./index.ts",
+          "id": 492
+        },
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/index.ts",
+          "name": "./src/index.ts",
+          "id": 607
+        },
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+          "name": "./src/calendar.ts",
+          "id": 722
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 412,
+      "issuerId": 722,
+      "chunks": [
+        548
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+          "module": "./src/calendar.ts",
+          "moduleName": "./src/calendar.ts",
+          "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+          "resolvedModule": "./src/calendar.ts",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./utils/event-emitter",
+          "loc": "10:24-56",
+          "moduleId": 722,
+          "resolvedModuleId": 722
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "__esModule",
+        "default"
+      ],
+      "optimizationBailout": [
+        "Statement (ExpressionStatement) with side effects in source code at 2:0-62",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 3
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 2755,
+      "sizes": {
+        "javascript": 2755
+      },
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/utils/dom.ts",
+      "name": "./src/utils/dom.ts",
+      "nameForCondition": "/Users/gerasinivan/projects/archive/calendar/src/utils/dom.ts",
+      "index": 7,
+      "preOrderIndex": 7,
+      "index2": 3,
+      "postOrderIndex": 3,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view.ts",
+      "issuerName": "./src/view.ts",
+      "issuerPath": [
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/index.ts",
+          "name": "./index.ts",
+          "id": 492
+        },
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/index.ts",
+          "name": "./src/index.ts",
+          "id": 607
+        },
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+          "name": "./src/calendar.ts",
+          "id": 722
+        },
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view.ts",
+          "name": "./src/view.ts",
+          "id": 85
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 593,
+      "issuerId": 85,
+      "chunks": [
+        548
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view.ts",
+          "module": "./src/view.ts",
+          "moduleName": "./src/view.ts",
+          "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view.ts",
+          "resolvedModule": "./src/view.ts",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./utils/dom",
+          "loc": "3:14-36",
+          "moduleId": 85,
+          "resolvedModuleId": 85
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "Dom",
+        "__esModule",
+        "default"
+      ],
+      "optimizationBailout": [
+        "Statement (ExpressionStatement) with side effects in source code at 2:0-62",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 4
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 1771,
+      "sizes": {
+        "javascript": 1771
+      },
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/dates.ts",
+      "name": "./src/view-mod/dates.ts",
+      "nameForCondition": "/Users/gerasinivan/projects/archive/calendar/src/view-mod/dates.ts",
+      "index": 13,
+      "preOrderIndex": 13,
+      "index2": 10,
+      "postOrderIndex": 10,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/index.ts",
+      "issuerName": "./src/view-mod/index.ts",
+      "issuerPath": [
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/index.ts",
+          "name": "./index.ts",
+          "id": 492
+        },
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/index.ts",
+          "name": "./src/index.ts",
+          "id": 607
+        },
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+          "name": "./src/calendar.ts",
+          "id": 722
+        },
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/index.ts",
+          "name": "./src/view-mod/index.ts",
+          "id": 313
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 163,
+      "issuerId": 313,
+      "chunks": [
+        548
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/index.ts",
+          "module": "./src/view-mod/index.ts",
+          "moduleName": "./src/view-mod/index.ts",
+          "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/index.ts",
+          "resolvedModule": "./src/view-mod/index.ts",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./dates",
+          "loc": "4:16-34",
+          "moduleId": 313,
+          "resolvedModuleId": 313
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "DatesViewMod",
+        "__esModule"
+      ],
+      "optimizationBailout": [
+        "Statement (ExpressionStatement) with side effects in source code at 2:0-62",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 4
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 961,
+      "sizes": {
+        "javascript": 961
+      },
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/month.ts",
+      "name": "./src/view-mod/month.ts",
+      "nameForCondition": "/Users/gerasinivan/projects/archive/calendar/src/view-mod/month.ts",
+      "index": 15,
+      "preOrderIndex": 15,
+      "index2": 11,
+      "postOrderIndex": 11,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/index.ts",
+      "issuerName": "./src/view-mod/index.ts",
+      "issuerPath": [
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/index.ts",
+          "name": "./index.ts",
+          "id": 492
+        },
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/index.ts",
+          "name": "./src/index.ts",
+          "id": 607
+        },
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+          "name": "./src/calendar.ts",
+          "id": 722
+        },
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/index.ts",
+          "name": "./src/view-mod/index.ts",
+          "id": 313
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 662,
+      "issuerId": 313,
+      "chunks": [
+        548
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/index.ts",
+          "module": "./src/view-mod/index.ts",
+          "moduleName": "./src/view-mod/index.ts",
+          "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/index.ts",
+          "resolvedModule": "./src/view-mod/index.ts",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./month",
+          "loc": "5:16-34",
+          "moduleId": 313,
+          "resolvedModuleId": 313
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "MonthViewMod",
+        "__esModule"
+      ],
+      "optimizationBailout": [
+        "Statement (ExpressionStatement) with side effects in source code at 2:0-62",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 4
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 1116,
+      "sizes": {
+        "javascript": 1116
+      },
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/years.ts",
+      "name": "./src/view-mod/years.ts",
+      "nameForCondition": "/Users/gerasinivan/projects/archive/calendar/src/view-mod/years.ts",
+      "index": 16,
+      "preOrderIndex": 16,
+      "index2": 12,
+      "postOrderIndex": 12,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/index.ts",
+      "issuerName": "./src/view-mod/index.ts",
+      "issuerPath": [
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/index.ts",
+          "name": "./index.ts",
+          "id": 492
+        },
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/index.ts",
+          "name": "./src/index.ts",
+          "id": 607
+        },
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+          "name": "./src/calendar.ts",
+          "id": 722
+        },
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/index.ts",
+          "name": "./src/view-mod/index.ts",
+          "id": 313
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 234,
+      "issuerId": 313,
+      "chunks": [
+        548
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/index.ts",
+          "module": "./src/view-mod/index.ts",
+          "moduleName": "./src/view-mod/index.ts",
+          "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/index.ts",
+          "resolvedModule": "./src/view-mod/index.ts",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./years",
+          "loc": "6:16-34",
+          "moduleId": 313,
+          "resolvedModuleId": 313
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "YearsViewMod",
+        "__esModule"
+      ],
+      "optimizationBailout": [
+        "Statement (ExpressionStatement) with side effects in source code at 2:0-62",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 4
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 562,
+      "sizes": {
+        "javascript": 562
+      },
+      "built": true,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/view-mod.ts",
+      "name": "./src/view-mod/view-mod.ts",
+      "nameForCondition": "/Users/gerasinivan/projects/archive/calendar/src/view-mod/view-mod.ts",
+      "index": 14,
+      "preOrderIndex": 14,
+      "index2": 9,
+      "postOrderIndex": 9,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/dates.ts",
+      "issuerName": "./src/view-mod/dates.ts",
+      "issuerPath": [
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/index.ts",
+          "name": "./index.ts",
+          "id": 492
+        },
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/index.ts",
+          "name": "./src/index.ts",
+          "id": 607
+        },
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/calendar.ts",
+          "name": "./src/calendar.ts",
+          "id": 722
+        },
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/index.ts",
+          "name": "./src/view-mod/index.ts",
+          "id": 313
+        },
+        {
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/dates.ts",
+          "name": "./src/view-mod/dates.ts",
+          "id": 163
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": 656,
+      "issuerId": 163,
+      "chunks": [
+        548
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/dates.ts",
+          "module": "./src/view-mod/dates.ts",
+          "moduleName": "./src/view-mod/dates.ts",
+          "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/dates.ts",
+          "resolvedModule": "./src/view-mod/dates.ts",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./view-mod",
+          "loc": "5:19-40",
+          "moduleId": 163,
+          "resolvedModuleId": 163
+        },
+        {
+          "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/month.ts",
+          "module": "./src/view-mod/month.ts",
+          "moduleName": "./src/view-mod/month.ts",
+          "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/month.ts",
+          "resolvedModule": "./src/view-mod/month.ts",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./view-mod",
+          "loc": "4:19-40",
+          "moduleId": 662,
+          "resolvedModuleId": 662
+        },
+        {
+          "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/years.ts",
+          "module": "./src/view-mod/years.ts",
+          "moduleName": "./src/view-mod/years.ts",
+          "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/ts-loader/index.js!/Users/gerasinivan/projects/archive/calendar/src/view-mod/years.ts",
+          "resolvedModule": "./src/view-mod/years.ts",
+          "type": "cjs require",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./view-mod",
+          "loc": "4:19-40",
+          "moduleId": 234,
+          "resolvedModuleId": 234
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [
+        "ViewMod",
+        "__esModule"
+      ],
+      "optimizationBailout": [
+        "Statement (ExpressionStatement) with side effects in source code at 2:0-62",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 5
+    },
+    {
+      "type": "module",
+      "moduleType": "runtime",
+      "layer": null,
+      "size": 274,
+      "sizes": {
+        "runtime": 274
+      },
+      "built": false,
+      "codeGenerated": true,
+      "cached": false,
+      "identifier": "webpack/runtime/make namespace object",
+      "name": "webpack/runtime/make namespace object",
+      "nameForCondition": null,
+      "index": null,
+      "preOrderIndex": null,
+      "index2": null,
+      "postOrderIndex": null,
+      "optional": false,
+      "orphan": false,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "",
+      "chunks": [
+        548
+      ],
+      "assets": [],
+      "reasons": [],
+      "usedExports": null,
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": null
+    }
+  ],
+  "entrypoints": {
+    "calendar": {
+      "name": "calendar",
+      "chunks": [
+        548
+      ],
+      "assets": [
+        {
+          "name": "calendar.min.css",
+          "size": 2889
+        },
+        {
+          "name": "calendar.min.js",
+          "size": 17748
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 20637,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "namedChunkGroups": {
+    "calendar": {
+      "name": "calendar",
+      "chunks": [
+        548
+      ],
+      "assets": [
+        {
+          "name": "calendar.min.css",
+          "size": 2889
+        },
+        {
+          "name": "calendar.min.js",
+          "size": 17748
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 20637,
+      "auxiliaryAssets": [],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "errors": [],
+  "errorsCount": 0,
+  "warnings": [],
+  "warningsCount": 0,
+  "children": [
+    {
+      "name": "mini-css-extract-plugin /Users/gerasinivan/projects/archive/calendar/node_modules/css-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/node_modules/sass-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/src/style/index.scss",
+      "hash": "37ca1e61523d08b36d74",
+      "version": "5.24.2",
+      "time": 536,
+      "builtAt": 1614773844987,
+      "publicPath": "",
+      "outputPath": "/Users/gerasinivan/projects/archive/calendar/dist",
+      "assetsByChunkName": {},
+      "assets": [],
+      "chunks": [
+        {
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "recorded": false,
+          "size": 5739,
+          "sizes": {
+            "javascript": 4802,
+            "runtime": 937
+          },
+          "names": [
+            "child"
+          ],
+          "idHints": [],
+          "runtime": [
+            "child"
+          ],
+          "files": [],
+          "auxiliaryFiles": [],
+          "hash": "c177aa14adfbaa6589f9",
+          "childrenByOrder": {},
+          "id": 396,
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "modules": [
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 3197,
+              "sizes": {
+                "javascript": 3197
+              },
+              "built": true,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/css-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/node_modules/sass-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/src/style/index.scss",
+              "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/index.scss",
+              "nameForCondition": "/Users/gerasinivan/projects/archive/calendar/src/style/index.scss",
+              "index": 0,
+              "preOrderIndex": 0,
+              "index2": 1,
+              "postOrderIndex": 1,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "issuer": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 188,
+              "issuerId": null,
+              "chunks": [
+                396
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": "entry",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "!!/Users/gerasinivan/projects/archive/calendar/node_modules/css-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/node_modules/sass-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/src/style/index.scss",
+                  "loc": "child",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": null,
+                  "active": true,
+                  "explanation": "used as library export",
+                  "userRequest": null,
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [
+                "Statement (VariableDeclaration) with side effects in source code at 3:0-84",
+                "ModuleConcatenation bailout: Module uses module.id"
+              ],
+              "depth": 0
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 1605,
+              "sizes": {
+                "javascript": 1605
+              },
+              "built": true,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/css-loader/dist/runtime/api.js",
+              "name": "./node_modules/css-loader/dist/runtime/api.js",
+              "nameForCondition": "/Users/gerasinivan/projects/archive/calendar/node_modules/css-loader/dist/runtime/api.js",
+              "index": 1,
+              "preOrderIndex": 1,
+              "index2": 0,
+              "postOrderIndex": 0,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "/Users/gerasinivan/projects/archive/calendar/node_modules/css-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/node_modules/sass-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/src/style/index.scss",
+              "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/index.scss",
+              "issuerPath": [
+                {
+                  "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/css-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/node_modules/sass-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/src/style/index.scss",
+                  "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/index.scss",
+                  "id": 188
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": 645,
+              "issuerId": 188,
+              "chunks": [
+                396
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/css-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/node_modules/sass-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/src/style/index.scss",
+                  "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/index.scss",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/index.scss",
+                  "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/css-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/node_modules/sass-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/src/style/index.scss",
+                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/index.scss",
+                  "type": "harmony side effect evaluation",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../../node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "2:0-92",
+                  "moduleId": 188,
+                  "resolvedModuleId": 188
+                },
+                {
+                  "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/css-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/node_modules/sass-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/src/style/index.scss",
+                  "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/index.scss",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/index.scss",
+                  "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/css-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/node_modules/sass-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/src/style/index.scss",
+                  "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/index.scss",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "../../node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "3:30-57",
+                  "moduleId": 188,
+                  "resolvedModuleId": 188
+                },
+                {
+                  "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/css-loader/dist/runtime/api.js",
+                  "module": "./node_modules/css-loader/dist/runtime/api.js",
+                  "moduleName": "./node_modules/css-loader/dist/runtime/api.js",
+                  "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/css-loader/dist/runtime/api.js",
+                  "resolvedModule": "./node_modules/css-loader/dist/runtime/api.js",
+                  "type": "cjs self exports reference",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": null,
+                  "loc": "9:0-14",
+                  "moduleId": 645,
+                  "resolvedModuleId": 645
+                }
+              ],
+              "usedExports": null,
+              "providedExports": null,
+              "optimizationBailout": [
+                "CommonJS bailout: module.exports is used directly at 9:0-14",
+                "Statement (ExpressionStatement) with side effects in source code at 9:0-66:2",
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 1
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 267,
+              "sizes": {
+                "runtime": 267
+              },
+              "built": false,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "webpack/runtime/compat get default export",
+              "name": "webpack/runtime/compat get default export",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                396
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 308,
+              "sizes": {
+                "runtime": 308
+              },
+              "built": false,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "webpack/runtime/define property getters",
+              "name": "webpack/runtime/define property getters",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                396
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 88,
+              "sizes": {
+                "runtime": 88
+              },
+              "built": false,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "webpack/runtime/hasOwnProperty shorthand",
+              "name": "webpack/runtime/hasOwnProperty shorthand",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                396
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 274,
+              "sizes": {
+                "runtime": 274
+              },
+              "built": false,
+              "codeGenerated": true,
+              "cached": false,
+              "identifier": "webpack/runtime/make namespace object",
+              "name": "webpack/runtime/make namespace object",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                396
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            }
+          ],
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "child",
+              "request": "!!/Users/gerasinivan/projects/archive/calendar/node_modules/css-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/node_modules/sass-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/src/style/index.scss"
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 3197,
+          "sizes": {
+            "javascript": 3197
+          },
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/css-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/node_modules/sass-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/src/style/index.scss",
+          "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/index.scss",
+          "nameForCondition": "/Users/gerasinivan/projects/archive/calendar/src/style/index.scss",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 188,
+          "issuerId": null,
+          "chunks": [
+            396
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "!!/Users/gerasinivan/projects/archive/calendar/node_modules/css-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/node_modules/sass-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/src/style/index.scss",
+              "loc": "child",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": null,
+              "active": true,
+              "explanation": "used as library export",
+              "userRequest": null,
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+            "Statement (VariableDeclaration) with side effects in source code at 3:0-84",
+            "ModuleConcatenation bailout: Module uses module.id"
+          ],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 1605,
+          "sizes": {
+            "javascript": 1605
+          },
+          "built": true,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/css-loader/dist/runtime/api.js",
+          "name": "./node_modules/css-loader/dist/runtime/api.js",
+          "nameForCondition": "/Users/gerasinivan/projects/archive/calendar/node_modules/css-loader/dist/runtime/api.js",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": "/Users/gerasinivan/projects/archive/calendar/node_modules/css-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/node_modules/sass-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/src/style/index.scss",
+          "issuerName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/index.scss",
+          "issuerPath": [
+            {
+              "identifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/css-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/node_modules/sass-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/src/style/index.scss",
+              "name": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/index.scss",
+              "id": 188
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": 645,
+          "issuerId": 188,
+          "chunks": [
+            396
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/css-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/node_modules/sass-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/src/style/index.scss",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/index.scss",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/index.scss",
+              "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/css-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/node_modules/sass-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/src/style/index.scss",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/index.scss",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../../node_modules/css-loader/dist/runtime/api.js",
+              "loc": "2:0-92",
+              "moduleId": 188,
+              "resolvedModuleId": 188
+            },
+            {
+              "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/css-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/node_modules/sass-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/src/style/index.scss",
+              "module": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/index.scss",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/index.scss",
+              "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/css-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/node_modules/sass-loader/dist/cjs.js!/Users/gerasinivan/projects/archive/calendar/src/style/index.scss",
+              "resolvedModule": "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style/index.scss",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "../../node_modules/css-loader/dist/runtime/api.js",
+              "loc": "3:30-57",
+              "moduleId": 188,
+              "resolvedModuleId": 188
+            },
+            {
+              "moduleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/css-loader/dist/runtime/api.js",
+              "module": "./node_modules/css-loader/dist/runtime/api.js",
+              "moduleName": "./node_modules/css-loader/dist/runtime/api.js",
+              "resolvedModuleIdentifier": "/Users/gerasinivan/projects/archive/calendar/node_modules/css-loader/dist/runtime/api.js",
+              "resolvedModule": "./node_modules/css-loader/dist/runtime/api.js",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "9:0-14",
+              "moduleId": 645,
+              "resolvedModuleId": 645
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 9:0-14",
+            "Statement (ExpressionStatement) with side effects in source code at 9:0-66:2",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 267,
+          "sizes": {
+            "runtime": 267
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "webpack/runtime/compat get default export",
+          "name": "webpack/runtime/compat get default export",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            396
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 308,
+          "sizes": {
+            "runtime": 308
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "webpack/runtime/define property getters",
+          "name": "webpack/runtime/define property getters",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            396
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 88,
+          "sizes": {
+            "runtime": 88
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "webpack/runtime/hasOwnProperty shorthand",
+          "name": "webpack/runtime/hasOwnProperty shorthand",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            396
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 274,
+          "sizes": {
+            "runtime": 274
+          },
+          "built": false,
+          "codeGenerated": true,
+          "cached": false,
+          "identifier": "webpack/runtime/make namespace object",
+          "name": "webpack/runtime/make namespace object",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            396
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        }
+      ],
+      "entrypoints": {
+        "child": {
+          "name": "child",
+          "chunks": [
+            396
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "namedChunkGroups": {
+        "child": {
+          "name": "child",
+          "chunks": [
+            396
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "errors": [],
+      "errorsCount": 0,
+      "warnings": [],
+      "warningsCount": 0,
+      "children": []
+    }
+  ]
+}
